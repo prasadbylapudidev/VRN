@@ -1,0 +1,436 @@
+/* Base styles (optimized for mobile devices) */
+.header {
+    display: flex;
+    justify-content: center; /* Center items in the header, the logo will be centered */
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for the header */
+    position: relative; /* Allows absolute positioning relative to the header */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow effects */
+}
+
+.logo {
+    z-index: 2; /* Ensures logo is above the nav-toggle when it's open */
+    height: 80px; /* Adjust the logo size as needed */
+}
+
+.nav-toggle {
+    display: flex; /* Ensure nav-toggle is visible */
+    cursor: pointer;
+    background: none;
+    border: none;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25px;
+    width: 35px;
+    position: absolute;
+    left: 10px; /* Position the nav-toggle to the left */
+    top: 50%;
+    transform: translateY(-50%); /* Center it vertically */
+    z-index: 1000; /* Ensures nav-toggle is above the logo */
+}
+
+.nav-toggle span {
+    display: block;
+    width: 100%; /* Full width of the button */
+    height: 3px;
+    background-color: #333;
+    transition: background-color 0.3s ease; /* Transition for the hamburger icon lines */
+}
+
+/* Change the color of the hamburger lines on hover */
+.nav-toggle:hover span {
+    background-color: #C51605;
+    list-style-type: none;
+}
+
+.nav-links {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect for the dropdown */
+    z-index: 1000; /* Below the nav-toggle */
+    transition: all 0.3s ease; /* Smooth transition for dropdown */
+}
+
+/* When visible, fade the navigation in */
+.nav-links.visible {
+    display: flex; /* Displayed when nav-toggle is clicked */
+    opacity: 1; /* Fade to full opacity */
+    visibility: visible; /* Make visible */
+}
+
+.nav-links li {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    transition: color 0.2s ease; /* Color transition for hover */
+    list-style-type: none;
+    position: relative;
+    right: 25px;
+}
+
+/* Change color of links on hover */
+.nav-links li:hover {
+    background-color: rgba(255, 0, 0, 0.1); /* Light blue background on hover */
+    list-style-type: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    display: block;
+    list-style-type: none;
+}
+
+/* Hide the 'Get in Touch' button on mobile */
+.cta-button {
+    display: none; /* Hidden on mobile */
+}
+
+
+.nav-toggle.active span:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+}
+
+.nav-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-toggle.active span:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+}
+
+.nav-toggle span {
+    /* ... existing styles ... */
+    transition: transform 0.3s ease, opacity 0.2s ease; /* Transition for rotation and fade */
+}
+
+
+.nav-links {
+    /* ... existing styles ... */
+    /* Transition for slide-down effect */
+    transform: translateY(-10px); /* Start a bit higher for a slide-down effect */
+    transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* When visible, slide the navigation down */
+.nav-links.visible {
+    /* ... existing styles ... */
+    transform: translateY(0); /* Slide to the default position */
+}
+
+.nav-links li {
+    /* ... existing styles ... */
+    /* Transition for the slide-in effect for each list item */
+    transition: transform 0.3s ease, opacity 0.3s 0.1s; /* Delay opacity transition for a smooth effect */
+}
+
+/* Individual delay for each menu item for a cascading effect */
+.nav-links.visible li {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.nav-links.visible li:nth-child(1) { transition-delay: 0.2s; }
+.nav-links.visible li:nth-child(2) { transition-delay: 0.3s; }
+.nav-links visible li:nth-child(3) { transition-delay: 0.4s; }
+.nav-links visible li:nth-child(4) { transition-delay: 0.5s; }
+.nav-links visible li:nth-child(5) { transition-delay: 0.6s; }
+
+.services-dropdown{
+    z-index: 1001;
+}
+
+.services-dropdown .dropdown {
+    display: none; /* Hide the dropdown by default */
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width:100%; /* Full width of the parent menu item */
+    min-width: 200px;
+    z-index: -1001; /* Ensure dropdown is above other content */
+}
+/* Show the dropdown on hover/click */
+.services-dropdown:hover .dropdown,
+.services-dropdown .dropdown.visible {
+    display: block;
+}
+
+/* Styling dropdown links */
+.dropdown li {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.dropdown li:hover {
+    background-color: #f8f8f8;
+}
+
+
+.dropdown a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #f8f8f8;
+}
+
+
+/* Media query for larger screens (laptops, etc.) */
+@media (min-width: 768px) {
+    .header {
+        justify-content: space-between; /* Align items to start and end */
+        padding: 15px 30px; /* Larger padding on larger screens */
+    }
+
+    .logo {
+        /* Reset margin to align properly with flexbox */
+        margin-left: 20px; /* Or adjust as needed */
+    }
+
+    .nav-toggle {
+        display: none; /* Hide the toggle button on larger screens */
+    }
+
+    .nav-links {
+        all: unset;
+        display: flex; /* Display nav items in a row */
+        align-items: center;
+        justify-content: flex-end; /* Aligns nav items to the right */
+        position: static; /* Static position for normal document flow */
+        width: 65%; /* Auto width based on content */
+    }
+
+    .nav-links ul {
+        display: flex; /* This ensures the list items are in a row */
+        margin: 0;
+        padding: 0;
+        list-style: none; /* Removes list bullets */
+    }
+
+    .nav-links li {
+        padding: 0 20px; /* Horizontal padding for nav items */
+        /* Needed for positioning the dropdown */
+        width: fit-content;
+    }
+
+    .nav-links li:hover .dropdown {
+        display: block; /* Show the dropdown on hover */
+        width: auto; /* Auto width based on content */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        left: 20%; /* Center the dropdown */
+        transform: translateX(-20%); /* Adjust horizontal centering */
+    }
+
+    .nav-links a {
+        padding: 5px 10px; /* Padding to increase tap area */
+        text-decoration: none; /* Removes underline from links */
+    }
+
+    .nav-links a:hover {
+        color: #C51605; /* Text color on hover */
+    }
+
+    .cta-button {
+        display: inline-block; /* Show the button on larger screens */
+        padding: 10px 20px;
+        background-color: #FFFBF5; /* Button color */
+        border-radius: 4px;
+        color: #040D12;
+        cursor: pointer;
+        font-size: 1.1em;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    .cta-button:hover {
+        color: #FFFBF5;
+        background-color: #040D12; /* Darker blue on hover */
+    }
+
+   
+
+}
+
+
+/* Base styles for dropdown menu */
+.services-dropdown .dropdown {
+    overflow: hidden;
+    display: none; /* Hide the dropdown by default */
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    width: 100%; /* Full width on mobile */
+    border-radius: 8px; /* Rounded corners for the dropdown */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px); /* Start slightly lower */
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+.services-dropdown:hover .dropdown,
+.services-dropdown .dropdown.visible {
+    display: block; /* Show the dropdown on hover or when visible class is added */
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* Move to original position */
+}
+
+.dropdown li {
+    width: 100%;
+    padding: 15px 20px;
+    text-align: left;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.dropdown li:hover {
+    background-color: #f8f8f8; /* Light grey background on hover */
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: color 0.3s; /* Smooth transition for text color */
+}
+
+/* Mobile First Approach */
+@media (max-width: 767px) {
+    .services-dropdown .dropdown {
+        border-radius: 0; /* Remove border radius on mobile for full width */
+    }
+}
+
+/* Styles for tablets and upwards */
+@media (min-width: 768px) {
+    .services-dropdown {
+        position: relative; /* Allow absolute positioning relative to the services-dropdown */
+    }
+
+    .services-dropdown .dropdown {
+        width: auto; /* Auto width based on content */
+        left: 50%; /* Position the dropdown in the middle of the parent item */
+        transform: translateX(15%) translateY(0);
+    }
+
+    .services-dropdown:hover .dropdown {
+        display: block; /* Ensure the dropdown displays on hover */
+    }
+
+    .dropdown li:not(:last-child) {
+        
+        border-bottom: 1px solid #eaeaea; 
+    }
+
+    .dropdown a {
+        font-size: 1rem; /* Readable font size for larger screens */
+    }
+}
+
+/* Non-touch devices hover effects */
+@media (hover: hover) {
+    .services-dropdown:hover > a {
+        color: #C51605; /* Change text color on hover of the service link */
+    }
+
+    .services-dropdown .dropdown {
+        transition-delay: 0.1s; /* Small delay for dropdown to appear smoothly */
+    }
+
+    .dropdown a:hover {
+        color: #C51605; /* Highlight color on hover */
+    }
+}
+
+/* Animations */
+@keyframes fadeInDropdown {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Apply the animation */
+.services-dropdown:hover .dropdown {
+    animation: fadeInDropdown 0.5s ease forwards;
+}
+
+
+@media (min-width: 992px) {
+    /* Styles for the navigation links */
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative; /* Ensure positioning is relative for the dropdown */
+        text-decoration: none;
+    }
+
+    /* Style for each navigation item */
+    .nav-links li {
+        position: relative; /* Dropdown positioning context */
+        padding: 0 15px; /* Horizontal padding for menu items */
+        text-decoration: none;
+
+    }
+
+    /* Styling for the dropdown menu */
+    .services-dropdown .dropdown {
+        display: none; /* Hide the dropdown by default */
+        position: absolute;
+        left: 0; /* Align to the left edge of the parent li */
+        top: 100%; /* Position just below the parent li */
+        background-color: #fff; /* Match the background color of the nav bar */
+        min-width: 200px; /* Minimum width of the dropdown */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the dropdown */
+        border-radius: 0.25rem; /* Slight rounding of corners */
+        z-index: 1000; /* Ensure it stacks above other content */
+        right: 40px;
+        text-decoration: none;
+    }
+
+    /* Show the dropdown when the parent li is hovered */
+    .services-dropdown:hover .dropdown {
+        display: block;
+        text-decoration: none;
+    }
+
+    /* Styling for links within the dropdown */
+    .services-dropdown .dropdown a {
+        display: block; /* Ensure it fills the width for a larger clickable area */
+        padding: 10px 20px; /* Padding for each dropdown item */
+        color: #333; /* Color for dropdown links */
+        text-decoration: none; /* No underlines for links */
+        white-space: nowrap; /* Prevent wrapping of text in dropdown */
+    }
+
+    /* Add hover effect for dropdown items */
+    .services-dropdown .dropdown a:hover {
+        background-color: #f8f8f8;
+        position: relative;
+        left: 30px;
+        text-decoration: none;
+    }
+    .dropdown li {
+    width: 100%;
+    }
+  
+    
+}
+

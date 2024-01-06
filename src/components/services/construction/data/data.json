@@ -1,0 +1,172 @@
+{
+  "Header": {
+    "title": "VRN Builders",
+    "paragraph": "Where Foundations Rise and Visions Materialize – Building Timeless Structures for Your Perfect Space."
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+ "Gallery": [
+  {
+    "title": "Enchanting Garden Affair",
+    "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU"
+  },
+  {
+    "title": "Whimsical Forest Fantasy",
+    "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU"
+  },
+  {
+    "title": "A Dreamy Starlit Celebration",
+    "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU"
+  },
+  {
+    "title": "Captivating Coastal Elegance",
+    "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU"
+  },
+  {
+    "title": "Ethereal Winter Wonderland",
+    "largeImage": "img/portfolio/05-large.jpg",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU"
+  },
+  {
+    "title": "Romantic Sunset Serenity",
+    "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpi846LZlVrtDBsq3xXEmrH5zVXBUO0hkljA&usqp=CAU"
+  }
+],
+"Services": [
+  {
+    "icon": "fa fa-building",
+    "name": "Construction Planning",
+    "text": "Our experienced team will meticulously plan every detail of your construction project, ensuring a smooth and efficient process from start to finish."
+  },
+  {
+    "icon": "fa fa-hard-hat",
+    "name": "Structural Engineering",
+    "text": "Ensure the strength and stability of your building with our professional structural engineering services. We prioritize safety and quality in every aspect of construction."
+  },
+  {
+    "icon": "fa fa-wrench",
+    "name": "General Contracting",
+    "text": "Trust our skilled craftsmen for all your general contracting needs. From foundation to finishing touches, we deliver high-quality construction services tailored to your specifications."
+  },
+  {
+    "icon": "fa fa-paint-roller",
+    "name": "Interior Renovation",
+    "text": "Transform your space with our interior renovation services. Our team of experts will enhance the aesthetics and functionality of your property, creating a modern and inviting atmosphere."
+  },
+  {
+    "icon": "fa fa-truck-pickup",
+    "name": "Site Development",
+    "text": "Prepare your construction site for success with our site development services. From excavation to grading, we ensure that your project starts on a solid foundation."
+  },
+  {
+    "icon": "fa fa-tools",
+    "name": "Customized Designs",
+    "text": "Personalize your construction project with unique and innovative designs. Collaborate with our team to bring your vision to life and create a space that meets your specific needs."
+  }
+],
+
+"Testimonials": [
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+    "text": "Exceptional craftsmanship and unwavering commitment! The construction team transformed our vision into reality. Highly recommended for their professionalism and top-notch service.",
+    "name": "Alex Turner"
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+    "text": "Impeccable structural work and seamless project management. The construction team exceeded our expectations, creating a solid foundation for our dream space.",
+    "name": "Emily Harris"
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+    "text": "From groundbreaking to finishing touches, the construction team made our project a smooth journey. Thank you for turning our construction dreams into a reality.",
+    "name": "Robert Mitchell"
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+    "text": "Outstanding attention to detail and a truly professional construction crew. They orchestrated every phase flawlessly, making our project extraordinary.",
+    "name": "Jessica Reynolds"
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+    "text": "Incredible creativity and personalized construction solutions. The team captured the essence of our vision, delivering a construction project beyond our expectations.",
+    "name": "Nathan Davidson"
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+    "text": "A heartfelt thank you to the construction team for making our project perfect. Their dedication and innovative approach made our construction journey an unforgettable experience.",
+    "name": "Sophia Miller"
+  }
+]
+
+,
+  "Team": [
+    {
+      "img": "https://image.ibb.co/c8xcU6/team1.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "https://image.ibb.co/c8xcU6/team1.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "https://image.ibb.co/c8xcU6/team1.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "https://image.ibb.co/c8xcU6/team1.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}

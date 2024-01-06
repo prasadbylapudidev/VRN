@@ -1,0 +1,191 @@
+/* ServicesOverview.css */
+/* Base mobile styles */
+.services-overview {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services-overview .container {
+    display: flex;
+    flex-direction: column; /* Stack service items on mobile */
+    margin: 0 auto;
+}
+
+.services-overview-title {
+    font-size: 2em; /* Adjust the size as needed */
+    text-align: center;
+    color: #333; /* Adjust color as needed */
+    margin-bottom: 30px; /* Space below the title */
+}
+
+.service {
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    height: auto; /* Adjust height to fit content */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.service:hover {
+    transform: translateY(-10px); /* Slightly raise the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow effect on hover */
+}
+
+.service-icon {
+    width: 100%; /* Full width on mobile */
+    height: 250px; /* Adjust height automatically */
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.service-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.service-link:hover {
+    background-color: #b30000;
+}
+
+.service-title {
+    color: #333;
+    font-size: 1.2em; /* Adjust the size as needed */
+    margin: 10px 0; /* Provide some spacing */
+}
+
+.service-description {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px; /* Provide some spacing */
+    text-align: left; /* Align the text to the left */
+}
+
+/* Responsive adjustments */
+/* Media query for tablet screens (greater than 768px) */
+@media (min-width: 768px) {
+    .services-overview .container {
+        flex-direction: row; /* Align service items in a row on tablet */
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1200px; /* Maximum width of the container */
+    }
+
+    .service {
+        flex-basis: calc(50% - 20px); /* Adjust basis for 2 items per row */
+        /* Adjust height if you want all cards to be of the same height */
+        height: fit-content;
+        transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+    }
+
+    .service:hover {
+        transform: translateY(-10px); /* Slightly raise the card on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow effect on hover */
+    }
+
+    .service-icon {
+        /* ... existing styles ... */
+        transition: transform 0.3s ease; /* Smooth transition for the icon */
+    }
+
+    /* .service:hover .service-icon {
+        transform: scale(1.1) rotate(10deg);
+    } */
+    
+    
+    .service-title {
+        /* ... existing styles ... */
+        transition: color 0.3s ease; /* Color transition on hover */
+    }
+    
+    /* Change color of title on hover of the service card */
+    .service:hover .service-title {
+        color: #ff1e00; /* Example hover color */
+    }
+    
+    
+    .service-link {
+        /* ... existing styles ... */
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for link hover */
+    }
+    
+    .service-link:hover {
+        background-color: #b30000; /* Change the background color on hover */
+        transform: scale(1.05); /* Slightly scale up the link on hover */
+    }
+}
+
+/* Media query for laptop/desktop screens (greater than 992px) */
+@media (min-width: 992px) {
+    .service {
+        flex-basis: calc(34% - 20px); /* Adjust basis for 4 items per row */
+        /* Keep the height dynamic based on content */
+        height: fit-content;
+        transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+    }
+
+    .service:hover {
+        transform: translateY(-10px); /* Slightly raise the card on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow effect on hover */
+    }
+
+    .service-icon {
+        width: 100%; /* Full width on mobile */
+        height: 250px; /* Adjust height automatically */
+        object-fit: cover;
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+
+    .service-icon {
+        /* ... existing styles ... */
+        transition: transform 0.3s ease; /* Smooth transition for the icon */
+    }
+
+    /* .service:hover .service-icon {
+        transform: scale(1.1) rotate(10deg);
+    } */
+    
+    
+    .service-title {
+        /* ... existing styles ... */
+        transition: color 0.3s ease; /* Color transition on hover */
+    }
+    
+    /* Change color of title on hover of the service card */
+    .service:hover .service-title {
+        color: #ff0000; /* Example hover color */
+    }
+    
+    
+    
+    .service-link {
+        /* ... existing styles ... */
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for link hover */
+    }
+    
+    .service-link:hover {
+        background-color: #b30000; /* Change the background color on hover */
+        transform: scale(1.05); /* Slightly scale up the link on hover */
+    }
+}

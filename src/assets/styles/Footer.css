@@ -1,0 +1,141 @@
+/* Footer Base Styles - Mobile First */
+.footer {
+    background-color: #343a40; /* Deep gray for a premium feel */
+    color: #f8f8f8;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    position: relative; /* For pseudo-element positioning */
+  }
+  
+  .footer:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #ff9800, #ff5722); /* Gradient border */
+  }
+  
+  .footer-section {
+    margin-bottom: 30px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px; /* Spacing between list items */
+  }
+  
+  .footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ffeb3b; /* Highlight color on hover */
+  }
+
+  .footer-section h4 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p, .footer-section a {
+    color: #bbb;
+    text-decoration: none;
+    display: block; /* Ensure it takes up the full width for tap targets */
+    margin-bottom: 10px; /* Spacing between items */
+    transition: color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    color: #ffeb3b; /* Accent color for hover state */
+  }
+  
+  .footer-bottom {
+    font-size: 0.85rem;
+    color: #aaa;
+    border-top: 1px solid #4f5b62; /* Subtle border for the bottom area */
+    padding-top: 20px;
+    margin-top: 40px; /* Space above the bottom text */
+  }
+  
+  .footer-bottom p {
+    margin-bottom: 5px; /* Tighten up spacing */
+  }
+  
+  .footer-bottom a {
+    color: #ffeb3b; /* Accent color for links */
+    transition: color 0.3s;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: none; /* No underline on hover */
+    color: #fff; /* Brighter color on hover for emphasis */
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links img {
+    width: 24px; /* Set your desired size */
+    height: auto;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-links a:hover img {
+    opacity: 0.7;
+  }
+  
+  /* Responsive adjustments for larger screens */
+  @media (min-width: 768px) {
+    .social-links {
+      justify-content: flex-start;
+    }
+  }
+  
+  
+  /* Responsive adjustments for laptop/desktop screens */
+  @media (min-width: 768px) {
+    .footer {
+      padding: 50px 80px;
+      text-align: left;
+    }
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .footer-section {
+      margin-bottom: 0;
+    }
+  
+    .footer-bottom {
+      text-align: right;
+      border-top: none;
+      padding-top: 0;
+      margin-top: 0;
+    }
+  }
+  

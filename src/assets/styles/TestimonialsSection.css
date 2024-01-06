@@ -1,0 +1,208 @@
+/* TestimonialsSection.css - Mobile View Optimization */
+
+.testimonials-section {
+    background: linear-gradient(135deg, #dcd0c0 0%, #c1a29b 100%);
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+   
+  }
+  
+  .testimonials-section .container {
+    max-width: 90%; /* Allow some space on the sides */
+    margin: 0 auto;
+   
+  }
+  
+  .testimonials-section h2 {
+    font-size: 1.6rem; /* Smaller font size for headlines */
+    color: #333;
+    margin-bottom: 20px; /* Less space after the headline */
+  }
+  
+  .slick-slider {
+    position: relative;
+    
+  }
+
+  .testimonial {
+    background: #ffffff;
+    padding: 15px; /* Less padding inside the testimonial cards */
+    border-radius: 15px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    /* margin: 10px 0; Less vertical space between cards */
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 0.5s ease-in-out forwards;
+
+  }
+  
+  .testimonial-img {
+    width: 60px; /* Smaller images for mobile */
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px auto; /* Less space around the image */
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #555;
+    font-size: 0.9rem; /* Smaller font size for quotes */
+    margin-bottom: 10px; /* Less space below the quote */
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+    color: #ff0800;
+    font-size: 0.85rem; /* Smaller author info */
+  }
+
+
+
+  .testimonials-section .testimonial {
+    /* Existing styles */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .testimonials-section .testimonial:hover {
+    transform: translateY(-3px); /* Slightly raise the card on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Increase shadow for depth */
+  }
+  
+  .testimonial-img {
+    /* Existing styles */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow around the image */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .testimonials-section .testimonial-img:hover {
+    transform: scale(1.05); /* Slightly scale up the image on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Slightly darker shadow for the image */
+  }
+  
+  blockquote {
+    /* Existing styles */
+    position: relative;
+  }
+  
+  blockquote:before, blockquote:after {
+    /* Quotation mark decorations */
+    content: open-quote;
+    font-size: 3rem; /* Large size for quotes */
+    position: absolute;
+    color: rgba(0,0,0,0.1); /* Light color for a subtle effect */
+  }
+  
+  blockquote:before {
+    top: -10px;
+    left: -10px;
+  }
+  
+  blockquote:after {
+    content: close-quote;
+    bottom: -10px;
+    right: -10px;
+  }
+  
+  .testimonial-author {
+    /* Existing styles */
+    font-style: normal;
+  }
+  
+  /* Dots and Arrows enhancement */
+  .slick-dots li button:before {
+    /* Existing styles */
+    opacity: 0.5; /* Less opacity for inactive dots */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    /* Existing styles */
+    opacity: 1; /* Full opacity for active dot */
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    /* Existing styles */
+    font-size: 20px; /* Smaller arrows */
+    color: rgba(255, 255, 255, 0.8); /* Lighter color for arrows with transparency */
+  }
+  
+  .slick-prev:hover:before, .slick-next:hover:before {
+    color: rgba(255, 255, 255, 1); /* Solid color on hover for better visibility */
+  }
+
+
+.slick-list{
+    border-radius: 15px;;
+}
+  
+  /* Animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Client logos */
+  .client-logos img {
+    max-width: 80px; /* Smaller logos for mobile */
+    margin: 0 5px; /* Less horizontal space between logos */
+    vertical-align: middle;
+  }
+  
+  /* Responsive adjustments for tablet screens */
+  @media (min-width: 768px) {
+
+
+    .testimonial {
+      padding: 30px;
+      margin: 15px;
+      max-width: 500px; 
+    }
+  
+    .testimonial-img {
+      width: 100px;
+      height: 100px;
+    }
+    
+  }
+
+
+  
+  /* Enhancements for laptop/desktop screens */
+  @media (min-width: 992px) {
+
+      .testimonial {
+        max-width: 600px; 
+        padding: 40px;
+        border-radius: 15px;
+      }
+    
+      .testimonial-img {
+        width: 120px;
+        height: 120px;
+      } 
+    
+      /* Adjust client logos for larger screens */
+      .client-logos img {
+        max-width: 120px;
+      }
+  }
+  
+  /* Hover effect for testimonials on non-touch devices */
+  @media (hover: hover) {
+    .testimonial:hover {
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      transform: translateY(-5px);
+    }
+  }
+  
+
+  .testimonial {
+    /* ... other styles ... */
+    border-radius: 15px; /* Adjust as needed */
+  }

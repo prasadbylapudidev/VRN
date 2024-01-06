@@ -1,0 +1,105 @@
+/* Base styles for mobile devices */
+.hero-container {
+    background-image: url('../images/hero-image.png');
+    height: 300px; /* Adjusted for mobile view */
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Added padding for smaller screens */
+    transition: height 0.5s ease-in-out; /* Smooth transition for height */
+}
+
+.hero-container h1 {
+    font-size: 2rem; /* Smaller font size for mobile */
+    margin: 0;
+    padding: 0;
+    transition: font-size 0.5s ease-in-out; /* Smooth transition for font size */
+    animation: fadeInUp 1s ease forwards; /* Fade-in-up animation */
+}
+
+.hero-container p {
+    font-size: 1rem; /* Adjusted font size for readability on mobile */
+    margin-bottom: 15px;
+    opacity: 0; /* Initially hidden for animation */
+    animation: fadeIn 1.5s ease 0.5s forwards; /* Fade-in animation */
+    color: #f5f0f0;
+    font-weight: 900;
+}
+
+.hero-container button {
+    padding: 8px 15px; /* Smaller button for mobile */
+    font-size: 0.9rem; /* Adjusted font size for the button */
+    color: #fff;
+    background-color: #101112;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Transition for hover */
+    opacity: 0; /* Initially hidden for animation */
+    animation: fadeInUp 2s ease 1s forwards; /* Fade-in-up animation */
+}
+
+.hero-container button:hover {
+    background-color: #9b1022;
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+
+    .hero-container p {
+        font-size: 1rem; /* Adjusted font size for readability on mobile */
+        margin-bottom: 85px;
+        opacity: 0; /* Initially hidden for animation */
+        animation: fadeIn 1.5s ease 0.5s forwards; /* Fade-in animation */
+        color: #080808;
+        font-weight: 900;
+    }
+    /* Styles for tablets */
+    .hero-container {
+        height: 400px;
+    }
+    .hero-container h1 {
+        font-size: 2rem;
+    }
+    .hero-container p {
+        font-size: 1.2rem;
+    }
+    .hero-container button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Styles for laptops and desktops */
+    .hero-container {
+        background-image: url('../images/hero-image-laptop.png'); /* Laptop optimized image */
+        height: 500px;
+    }
+    .hero-container h1 {
+        font-size: 2.5rem;
+    }
+    .hero-container p {
+        font-size: 1.4rem;
+    }
+    .hero-container button {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+    }
+}

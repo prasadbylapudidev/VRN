@@ -1,0 +1,16 @@
+
+.testimonial-image img {
+  width: 80px; /* Set the desired width */
+  height: 80px; /* Set the desired height */
+  border-radius: 50%; /* Make it a circle */
+}
+
+.testimonial-content {
+  margin-top: 15px; /* Adjust the margin as needed */
+}
+
+.testimonial-meta {
+  margin-top: 10px; /* Adjust the margin as needed */
+  font-style: italic;
+  color: #888;
+}

@@ -1,0 +1,172 @@
+{
+  "Header": {
+    "title": "BLOSSOM WEDDINGS",
+    "paragraph": "Where Dreams Unfold and Love Blossoms – Crafting Timeless Moments for Your Perfect Day."
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+ "Gallery": [
+  {
+    "title": "Enchanting Garden Affair",
+    "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU"
+  },
+  {
+    "title": "Whimsical Forest Fantasy",
+    "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU"
+  },
+  {
+    "title": "A Dreamy Starlit Celebration",
+    "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU"
+  },
+  {
+    "title": "Captivating Coastal Elegance",
+    "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU"
+  },
+  {
+    "title": "Ethereal Winter Wonderland",
+    "largeImage": "img/portfolio/05-large.jpg",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU"
+  },
+  {
+    "title": "Romantic Sunset Serenity",
+    "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU",
+    "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXiQtYMOcuEhdcY6TtP3hUpt9aAa1yJ-PEw&usqp=CAU"
+  }
+],
+
+ "Services": [
+  {
+    "icon": "fa fa-ring",
+    "name": "Wedding Planning",
+    "text": "Our expert team will meticulously plan every detail of your wedding, ensuring a seamless and unforgettable experience for you and your guests."
+  },
+  {
+    "icon": "fa fa-camera",
+    "name": "Photography & Videography",
+    "text": "Capture every precious moment of your special day with our professional photography and videography services. Cherish the memories for a lifetime."
+  },
+  {
+    "icon": "fa fa-cutlery",
+    "name": "Catering Services",
+    "text": "Delight your guests with exquisite culinary experiences. Our catering services offer a diverse menu tailored to your preferences and dietary requirements."
+  },
+  {
+    "icon": "fa fa-chess-bishop",
+    "name": "Floral Decorations",
+    "text": "Transform your venue with breathtaking floral arrangements. Our talented florists will create stunning decor that complements your wedding theme."
+  },
+  {
+    "icon": "fa fa-music",
+    "name": "Entertainment",
+    "text": "Create a lively atmosphere with our entertainment services. From live music to DJs, we'll ensure that your wedding celebration is filled with joy and laughter."
+  },
+  {
+    "icon": "fa fa-heart",
+    "name": "Customized Themes",
+    "text": "Personalize your wedding with unique and beautiful themes. We'll work with you to bring your vision to life and create a magical ambiance for your special day."
+  }
+],
+
+ "Testimonials": [
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+      "text": "Breathtakingly beautiful arrangements and impeccable service! Blossom Weddings turned our special day into a fairytale. Highly recommended!",
+      "name": "Akshay Patil"
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+      "text": "Absolutely stunning decor and seamless coordination. Blossom Weddings exceeded our expectations, creating magical memories that will last a lifetime.",
+      "name": "Prasad Bylapudi"
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+      "text": "From the enchanting ambiance to flawless execution, Blossom Weddings made our wedding day a dream come true. Thank you for the extraordinary experience!",
+      "name": "Jonathan Marris"
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+      "text": "Exceptional attention to detail and a truly professional team. Blossom Weddings orchestrated every moment flawlessly, making our wedding extraordinary.",
+      "name": "Garry Peterson"
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+      "text": "Incredible creativity and personalized touches. Blossom Weddings captured the essence of our love story, delivering a wedding beyond our wildest dreams.",
+      "name": "AppalaNaidu Gadu"
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9Yfk5l9vJOi2tHDW7ROt2cbDWXJONs-MWw&usqp=CAU",
+      "text": "A heartfelt thank you to Blossom Weddings for making our day perfect. The team's dedication and creativity made our wedding an unforgettable celebration.",
+      "name": "Mohan Vaddi"
+    }
+]
+,
+  "Team": [
+    {
+      "img": "https://image.ibb.co/c8xcU6/team1.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "https://image.ibb.co/c8xcU6/team1.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "https://image.ibb.co/c8xcU6/team1.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "https://image.ibb.co/c8xcU6/team1.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
